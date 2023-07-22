@@ -6,3 +6,5 @@ lazy val root = (project in file("."))
   .settings(
     name := "hello-lightbend-config"
   )
+
+libraryDependencies += "com.typesafe" % "config" % "1.4.2"
